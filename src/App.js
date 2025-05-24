@@ -9,7 +9,7 @@ function App() {
         <p>Welcome to your DevOps dashboard!</p>
         <div className="dashboard-content">
           <h2>Environment Details</h2>
-          <p>Environment: Dev</p>
+          <p>Environment: {window.env?.ENVIRONMENT || 'Unknown'}</p>
           <p>CloudFront URL: {window.env?.CLOUDFRONT_URL || 'Not set'}</p>
         </div>
       </header>
