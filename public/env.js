@@ -1,4 +1,4 @@
 window.env = {
-  ENVIRONMENT: 'dev',
-  CLOUDFRONT_URL: 'https://d3vm5rmp7cpwl1.cloudfront.net'
+  ENVIRONMENT: 'prod',
+  CLOUDFRONT_URL: 'https://d1hd0gkbs5iu4m.cloudfront.net'
 };
